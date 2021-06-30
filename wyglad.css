@@ -1,9 +1,15 @@
 html {
-  background-color: black;
+  background-image:url(wall.jpg);
+  font-family: Verdana;
 }
 
 #Title{
   color: white;
   text-align: center;
   text-decoration: underline;
+}
+
+.login {
+  text-align: center;
+  position: sticky;
 }
