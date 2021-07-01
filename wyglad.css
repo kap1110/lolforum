@@ -14,4 +14,5 @@ html {
   text-align: center;
   position: sticky;
   border-color: yellow;
+  border-radius: 10px;
 }
