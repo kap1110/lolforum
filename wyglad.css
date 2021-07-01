@@ -3,16 +3,73 @@ html {
   font-family: Verdana;
 }
 
-#Title{
+#Title {
   color: white;
   text-align: center;
   text-decoration: underline;
   text-shadow: 0px 0px 10px yellow;
 }
 
-.login {
+#login {
   text-align: center;
-  position: sticky;
+  padding: 5px;
+  border-radius: 10px;
+  border-color: yellow;
+  background-color: grey;
+  color: white;
+  text-shadow: 0px 0px 10px yellow;
+  position: relative;
+  left: 200px;
+}
+
+#mdp {
+  text-align: center;
+  padding: 5px;
+  border-radius: 10px;
+  border-color: yellow;
+  background-color: grey;
+  color: white;
+  text-shadow: 0px 0px 10px yellow;
+  position: relative;
+  left: 200px;
+}
+
+#wyslij {
+  padding: 5px;
+  border-radius: 10px;
+  border-color: yellow;
+  background-color: grey;
+  color: white;
+  position: relative;
+  left: 200px;
+}
+
+::placeholder {
+  color: white;
+}
+
+ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+  background-color: grey;
   border-color: yellow;
   border-radius: 10px;
+}
+
+li {
+  float: left;
+  display: block;
+  color: white;
+  padding: 10px 60px;
+  text-align: center;
+  text-decoration: none;
+  border-right: 1px solid black;
+  min-width: 60px;
+  text-shadow: 0px 0px 10px yellow;
+}
+
+li:hover {
+  background-color: black;
 }
