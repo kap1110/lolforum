@@ -19,7 +19,6 @@ html {
   color: white;
   text-shadow: 0px 0px 10px yellow;
   position: sticky;
-  left: 10px;
 }
 
 #mdp {
@@ -31,7 +30,6 @@ html {
   color: white;
   text-shadow: 0px 0px 10px yellow;
   position: sticky;
-  left: 200px;
 }
 
 #wyslij {
@@ -41,7 +39,6 @@ html {
   background-color: grey;
   color: white;
   position: sticky;
-  left: 390px;
 }
 
 ::placeholder {
